@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    min-width: 100%;
+    width: 100%;
+}
+header{
+    padding: 30px 0px;
+}
+
+header .logo h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.carousel-item img{
+    top: 0;
+    left: 0;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.carousel-caption {
+    top: 40%;
+}
+
+.carousel-caption h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.carousel-caption p {
+    font-size: 25px;
+}
+
+.carousel-caption .button{
+    font-size: 30px;
+    color: coral;
+}
+
+.sec-padding{
+    padding: 100px 0px;
+}
+
+.sec-padding-bottom{
+    padding-bottom: 100px;
+}
+
+.sec-title {
+    margin-bottom: 50px;
+}
+
+.sec-title h1{
+    font-size: 50px;
+}
+
+.package{
+    padding: 50px 30px;
+    transition: .5s;
+    border-radius: 20px;
+}
+
+
+.package h1{
+    font-size: 50px;
+}
+
+.package p{
+    font-size: 25px;
+    font-weight: 400;
+    color: #939393;
+}
+
+.package ul{
+    margin: 0;
+    padding: 0;
+}
+
+.package ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 400;
+    color: #939393;
+}
+
+.package:hover{
+    background: #0e6efd;
+    border-radius: 20px;
+    box-shadow: 0px 20px 40px -4px #0e6efd5e;
+    transition: .5s;
+}
+
+.package:hover h1{
+    color: #fff;
+}
+.package:hover p{
+    color: #fff;
+}
+
+.package:hover ul li{
+    color: #fff !important;
+}
+.package:hover ul li i.far{
+    color: #fff;
+}
+
+.package.hot ul li {
+    color: #fff;
+}
+
+.package ul li i.far{
+    padding-right: 10px;
+    font-size: 25px;
+    color: #5243c286;
+}
+
+.package.hot ul li i.far{
+    color: #fff;
+}
+
+.package .package-btn{
+    font-size: 25px;
+    font-weight: 700;
+    background: #fdf4fa;
+    border-radius: 50px;
+    color: darkblue;    
+}
+.package.hot{
+    border-radius: 20px;
+    box-shadow: 0px 20px 40px -4px #0e6efd5e;
+}
+
+.toast .fa-gift{
+    font-size: 25px;
+    padding-right: 20px;
+    color: #60acff;
+}
+
+/* faq css */
+
+.accordion-header .accordion-button{
+    font-size: 30px;
+    background: transparent;
+    font-weight: 500;
+    color: black;
+    
+}
+
+.accordion-body{
+    font-size: 22px;
+    font-weight: 400;
+    color: #575757;
+}
+
+.accordion-item{
+    margin-bottom: 20px;
+}
+
+.accordion-header{
+    border-top: 1px solid rgb(206, 206, 206);
+}
+.accordion-button:not(.collapsed){
+    box-shadow: none;
+}
+
+footer img{
+    width: 50%;
+    min-width: 50%;
+}
+
+@media only screen and (max-width: 922px){
+
+    .carousel-item img{
+        height: auto;
+    }
+    .carousel-caption{
+        top: 30%;
+    }
+
+    .carousel-caption h1{
+        font-size: 40px;
+    }
+
+    .carousel-caption p{
+        font-size: 20px;
+    }
+
+    footer img{
+        width: 80%;
+        min-width: 80%;
+    }
+    
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .carousel-caption{
+        top: 10%;
+    }
+
+    .carousel-item img{
+        height: auto;
+    }
+
+    .carousel-caption h1{
+        font-size: 20px;
+    }
+
+    .carousel-caption p{
+        font-size: 13px;
+    }
+
+    .carousel-caption .button{
+        font-size: 20px;
+    }
+
+    .package h1{
+        font-size: 40px;
+    }
+
+    .sec-title h1{
+        font-size: 40px;
+    }
+
+    .toast {
+        top: 3% !important;
+    }
+
+    .accordion-header .accordion-button{
+        font-size: 25px;
+    }
+
+    footer img{
+        width: 50%;
+        min-width: 50%;
+    }
+    
+
+
+
+
+
+
+
+
+
+  }
